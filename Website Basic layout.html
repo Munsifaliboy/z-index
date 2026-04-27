@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <title>CSS Website Basic Layout </title>
+            <style>
+                body{
+                    font-family: Arial, Helvetica, sans-serif;
+                    background: slategray;
+                    margin: 0;
+                    padding: 0;
+                }
+                #wrapper{
+                    border: 0px solid black;
+                    width: 1000px;
+                    background: white;
+                    margin: 0 auto;
+
+                }
+                #header{
+                    background: crimson;
+                    height: 100px;
+                    color: white;
+                }
+                #header h1{
+                    padding: 30px 0 0 20px;
+                }
+                #menu{
+                    background: lightsalmon;
+                }
+                #menu li{
+                    display: inline-block;
+                    
+                }
+                #menu li a{
+                    display: block;
+                    text-decoration: none;
+                    display: inline-block;
+                    padding: 10px 13px;
+                    color: black;
+                }
+                #menu li a:hover{
+                    background: crimson;
+                    color: white;
+                }
+                #menu ul{
+                    margin: 0;
+                    padding: 0;
+                }
+                #content{
+                    float: left;
+                    width: 800px;
+                    min-height: 500px;
+                    padding: 20px;
+                    box-sizing: border-box;
+                }
+                #sidebar{
+                    background-color: lightblue;
+                    width: 200px;
+                    float:right;
+                    min-height: 500px;
+                }
+                #sidebar a{
+                    text-decoration: none;
+                    color: black;
+                }
+                #footer{
+                    background: lightsalmon;
+                    clear: both;
+                    padding: 5px 10px;
+                }
+                @media screen and (max-width:1000px){
+                    #wrapper{
+                        width: 800px;
+                    }
+                    #content{
+                        width: 80%;
+                    }
+                    #sidebar{
+                        width: 18%;
+                    }
+                }
+                @media screen and (max-width:810px){
+                    #wrapper{
+                        width: 500px;
+                    }
+                    #content{
+                        width: 65%;
+                    }
+                    #sidebar{
+                        width: 35%;
+                    }
+                    #header h1{
+                    padding: 30px 0 0 0;
+                    text-align: center;
+                }
+                }
+                @media screen and (max-width:510px){
+                    #wrapper{
+                        width: auto;
+                    }
+                    #content{
+                        width: 100%;
+                        float: none;
+                    }
+                    #sidebar{
+                        width: 100%;
+                        float: none;
+                    }
+                }
+            </style>
+    </head>
+    <body>
+        <div id="wrapper"> 
+
+        <div id="header"> 
+            <h1>MUNASIF ALI </h1>
+        </div>
+        <div id="menu"> 
+        <ul>
+            <li> <a href="file:///C:/hacker/HTML%20Learn/2%20page%20its%20very%20important.html"> Home </a></li>    
+            <li> <a href="file:///C:/hacker/HTML%20Learn/internal%20link.html"> About us  </a></li> 
+            <li> <a href="file:///C:/hacker/HTML%20Learn/CSS%20LEARNING/Box-Shadow.html"> Gallery </a></li> 
+            <li> <a href="file:///C:/Users/Guest/Pictures/The%20sources%20of%20pollution%20The%20empact%20of%20pollution%20on%20the%20enviroment%20The%20empact%20of%20position%20on%20human%20health%20starategeis%20of%20reduce%20pollution%20(2).pdf"> Contact us </a></li> 
+        </ul>
+        </div>
+        <div id="content"> 
+        <h2> Design Basic Layout</h2>
+       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac tristique massa. Phasellus viverra vestibulum bibendum. Suspendisse purus mauris, pulvinar vel feugiat nec, tempus in dolor. Fusce vestibulum velit interdum lectus posuere, eu bibendum neque tincidunt. Ut augue purus, molestie eu neque vel, semper hendrerit diam. Sed non mi ut lacus facilisis volutpat. Etiam ac dui vitae dolor gravida dignissim. Nulla venenatis tempor ante, pulvinar euismod felis porta in. Curabitur molestie ipsum vel tortor imperdiet, non lobortis nunc gravida. Morbi nec sapien nisl. Vestibulum quis nisi sodales tellus elementum tempus. Fusce laoreet pellentesque dui, at pellentesque turpis blandit et. Integer hendrerit mollis rutrum. Etiam ut sodales tellus.</p>
+
+       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac tristique massa. Phasellus viverra vestibulum bibendum. Suspendisse purus mauris, pulvinar vel feugiat nec, tempus in dolor. Fusce vestibulum velit interdum lectus posuere, eu bibendum neque tincidunt. Ut augue purus, molestie eu neque vel, semper hendrerit diam. Sed non mi ut lacus facilisis volutpat. Etiam ac dui vitae dolor gravida dignissim. Nulla venenatis tempor ante, pulvinar euismod felis porta in. Curabitur molestie ipsum vel tortor imperdiet, non lobortis nunc gravida. Morbi nec sapien nisl. Vestibulum quis nisi sodales tellus elementum tempus. Fusce laoreet pellentesque dui, at pellentesque turpis blandit et. Integer hendrerit mollis rutrum. Etiam ut sodales tellus.</p>
+       </div>
+
+
+    
+        <div id="sidebar"> 
+            <ul>
+                <li> <a href="file:///C:/hacker/HTML%20Learn/CSS%20LEARNING/Box-Radius.html"> Home </a></li>    
+                <li> <a href="C:\hacker\HTML Learn\CSS LEARNING\Background-image.html"> About us  </a></li> 
+                <li> <a href="C:\hacker\HTML Learn\CSS LEARNING\TEXT-SHADOW.html"> Gallery </a></li> 
+                <li> <a href="https://www.canva.com/design/DAFtR2985MU/jPjTU8fkUWyZOWgWfOeiYg/view?utm_content=DAFtR2985MU&utm_campaign=designshare&utm_medium=link&utm_source=viewer"> Contact us </a></li> 
+                <li> <a href="https://lipsum.com/">  FAQ </a></li> 
+            </ul>  
+         </div>
+        <div id="footer"> 
+        Munasifali@copyright 2022 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <a href="C:\hacker\HTML Learn\Table-layout.html"> munasif@gmail.com </a>
+        </div>
+
+    </body>
+</html>
